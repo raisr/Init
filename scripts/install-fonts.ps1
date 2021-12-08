@@ -1,7 +1,7 @@
 # Install fonts
 
-$font = "JetBrainsMono"
-$fontPath = "$PSScriptRoot\..\resources\$font\"
+$font = "CascadiaCode"
+$fontPath = "$PSScriptRoot\..\resources\fonts\$font\"
 
 Write-Host "Installing font $font"
 
