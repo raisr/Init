@@ -1,3 +1,5 @@
+Clear-Host
+
 Write-Host "Setting up environment"
 
 $targetPath = "$home\.env-config"
@@ -11,4 +13,4 @@ If(!(test-path $targetPath))
 
 & "$PSScriptRoot\install-requirements.ps1"
 & "$PSScriptRoot\install-fonts.ps1"
-# & "$PSScriptRoot\initialize-shell.ps1"
+& "$PSScriptRoot\initialize-shell.ps1"
